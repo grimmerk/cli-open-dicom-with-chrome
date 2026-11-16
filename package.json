@@ -7,7 +7,14 @@
     "dist",
     "src"
   ],
-  "repository": "github:grimmer0125/cli-open-dicom-with-chrome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grimmerk/cli-open-dicom-with-chrome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grimmerk/cli-open-dicom-with-chrome/issues"
+  },
+  "homepage": "https://github.com/grimmerk/cli-open-dicom-with-chrome#readme",
   "bin": {
     "dicom": "./dist/index.js"
   },
@@ -28,7 +35,7 @@
     "trailingComma": "es5"
   },
   "name": "cli-open-dicom-with-chrome",
-  "author": "Grimmer",
+  "author": "grimmerk <k@grimmer.io> (https://github.com/grimmerk)",
   "devDependencies": {
     "tslib": "^2.0.0",
     "typescript": "^3.9.5"
